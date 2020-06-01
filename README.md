@@ -18,6 +18,6 @@ Ele é constituído de duas partes, a primeira é uma API responsável por forne
 ## Participantes
 * Bruno Sapir
 * Gabriel Heffer
-* Jéssica 
+* Jéssica Pereira
 * Lucas Palma
 * Lucas Santos
