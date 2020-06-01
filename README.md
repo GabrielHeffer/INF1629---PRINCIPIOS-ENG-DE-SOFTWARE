@@ -4,9 +4,9 @@
 Tarefa | Status | Progresso | Início | Fim
 ------ | ------ | --------- | ------ | ----
 Controle 1 | :white_check_mark: | 100% | 11/05/20 | 15/05/20
-Controle 2 | :o: | 10%  | 18/05/20 | 30/05/20
-Controle 3 | :o: | 0% | 01/06/20 | 20/06/20
-Controle 4 | :o: | 0% | 11/05/20 | 12/05/20
+Controle 2 | :white_check_mark: | 100% | 18/05/20 | 26/05/20
+Controle 3 | :o: | 50% | 27/06/20 | 04/06/20
+Controle 4 | :o: | 0% | 05/06/20 | 23/07/20
 
 
 ## Introdução
