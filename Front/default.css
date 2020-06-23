@@ -485,7 +485,8 @@ ul.style3 .first {
 	.column3
 	{
 		float: left;
-		margin-right: 24px;
+		padding-bottom: 60px;
+		margin-right: 100px;
 	}
 	
 	.column4
