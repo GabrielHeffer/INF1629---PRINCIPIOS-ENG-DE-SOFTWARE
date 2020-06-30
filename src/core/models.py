@@ -5,3 +5,6 @@ class Request(models.Model):
     urlBase = models.CharField('urlBase', max_length=200)
     OBdata = models.CharField('OBdata', max_length=50)
     OBrelevancia = models.CharField('OBrelevancia', max_length=50)
+
+    def __str__(self):
+        return self.nome

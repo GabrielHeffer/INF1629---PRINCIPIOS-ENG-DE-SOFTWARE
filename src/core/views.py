@@ -7,6 +7,6 @@ def index(request):
 
 
 def info(request):
-    requests_base = Request.object.all()
-    context = {request.nome: request.urlBase for request in requests_base}
+    all_requests = Request.objects.all()
+    context = {request.nome: request.urlBase for request in all_requests}
     return render(request, 'info.html', context)
