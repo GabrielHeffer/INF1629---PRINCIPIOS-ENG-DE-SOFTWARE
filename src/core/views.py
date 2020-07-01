@@ -6,7 +6,8 @@ def index(request):
     return render(request, 'index.html')
 
 
-def info(request):
+def resultado(request):
     all_requests = Request.objects.all()
     context = {request.nome: request.urlBase for request in all_requests}
-    return render(request, 'info.html', context)
+    context.update({request.nome+'OBD': request.urlBase + request.OBdata for request in all_requests})
+    return render(request, 'resultado.html', context)
