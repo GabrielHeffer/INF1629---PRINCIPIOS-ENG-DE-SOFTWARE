@@ -114,7 +114,7 @@ hr {
 
 #header-wrapper
 {
-	background: url(../images/logo.jpg) no-repeat center top;
+	background: url(images/logo.jpg) no-repeat center top;
 	background-size: cover;
 }
 
@@ -131,7 +131,63 @@ hr {
 	right: 0;
 }
 
-/** LOGO */
+
+/* The grid: Three equal columns that floats next to each other */
+.column7 {
+	float: left;
+	width: 33.33%;
+	padding: 50px;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+	color: white;
+  }
+  
+.containerTab {
+	padding: 20px;
+	color: white;
+  }
+  
+  /* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Closable button inside the image */
+.closebtn {
+	float: right;
+	color: white;
+	font-size: 35px;
+	cursor: pointer;
+  }
+
+/** BOTOES */
+
+.button {
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 12px;
+	margin: 4px 2px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+  }
+  
+.button1 {
+	background-color: white; 
+	color: red; 
+	border: 2px solid red;
+  }
+  
+.button1:hover {
+	background-color: black;
+	color: white;
+  }
 
 
 
@@ -448,13 +504,15 @@ ul.style3 .first {
 	.column3
 	{
 		float: left;
-		padding-bottom: 60px;
+
 		margin-right: 100px;
 	}
 	
 	.column4
 	{
-		float: right;
+		
+		vertical-align: middle;
+		display: inline-block;
 	}
 
 /*********************************************************************************/
