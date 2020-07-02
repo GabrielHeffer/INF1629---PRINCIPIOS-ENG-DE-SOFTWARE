@@ -13,7 +13,7 @@ Entrega final: 02/07/20
 
 ## Introdução
 O projeto é um site para visualização de notícias relacionadas ao COVID-19. 
-Ele é constituído de duas partes, a primeira é uma API responsável por fornecer através de uma interface simples notícias de diversas fontes de informação. A segunda parte é a interface web através da qual o usuário pode utilizar a API.
+Ele é constituído de duas partes, a primeira é uma API responsável por fornecer através de uma interface simples notícias de diversas fontes de informação.
 
 ## Participantes
 * Bruno Sapir
@@ -21,3 +21,6 @@ Ele é constituído de duas partes, a primeira é uma API responsável por forne
 * Jéssica Pereira
 * Lucas Palma
 * Lucas Santos
+
+## Abrir programa
+Para iniciar o agregador basta clicar duas vezes no arquivo bat iniciar_agregador.bat, que se encontra no arquivo raiz do projeto.
