@@ -24,3 +24,6 @@ Ele é constituído de duas partes, a primeira é uma API responsável por forne
 
 ## Abrir programa
 Para iniciar o agregador basta clicar duas vezes no arquivo bat iniciar_agregador.bat, que se encontra no arquivo raiz do projeto, e abrir no browser o endereço http://127.0.0.1:8000/.
+
+## Fechar programa
+Basta fechar a janela de comando
